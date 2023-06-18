@@ -1,0 +1,13 @@
+h1 {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div img {
+  width: 100px;
+  height: auto;
+}
