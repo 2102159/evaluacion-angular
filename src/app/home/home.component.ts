@@ -78,7 +78,7 @@ export class HomeComponent implements OnInit {
   }
 
   eliminarObjeto(objeto: any): void {
-    const confirmacion = confirm('¿Estás seguro de que deseas eliminar este objeto?');
+    const confirmacion = confirm('¿si desea eliminar este producto?');
     if (confirmacion) {
       const index = this.data.indexOf(objeto); // Obtener el índice del objeto en la lista
       if (index !== -1) {
